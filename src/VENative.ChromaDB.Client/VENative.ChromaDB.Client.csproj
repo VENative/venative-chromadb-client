@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<PackageId>VENative.ChromaDB.Client</PackageId>
+		<Title>VENative.ChromaDB.Client</Title>
+		<Version>9.0.0</Version>
+		<Authors>VENative</Authors>
+		<Company>VENative</Company>
+		<LangVersion>12</LangVersion>
+		<Description>C# Client to interface with a deployed ChromaDB instance</Description>
+		<Copyright>Copyright 2024 VENative</Copyright>
+		<PackageProjectUrl>https://github.com/VENative/venative-chromadb-client</PackageProjectUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<RepositoryUrl>https://github.com/VENative/venative-chromadb-client</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>chromadb;document retrieval;vector database; vector embeddings;vector search</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<!--<PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />-->
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>VENative.ChromaDB.Client.Tests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
