@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Threading;
-using System.Net.Http.Json;
 
 namespace VENative.ChromaDB.Client;
 
