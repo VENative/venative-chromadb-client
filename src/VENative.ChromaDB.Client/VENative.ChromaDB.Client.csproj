@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<PackageId>VENative.ChromaDB.Client</PackageId>
 		<Title>VENative.ChromaDB.Client</Title>
-		<Version>9.0.1</Version>
+		<Version>9.0.2</Version>
 		<Authors>VENative</Authors>
 		<Company>VENative</Company>
 		<LangVersion>12</LangVersion>
@@ -17,6 +17,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>chromadb;document retrieval;vector database; vector embeddings;vector search</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -34,6 +35,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Include="..\..\icon.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
 		<None Include="..\..\LICENSE">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
