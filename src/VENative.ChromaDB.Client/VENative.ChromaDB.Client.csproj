@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<PackageId>VENative.ChromaDB.Client</PackageId>
 		<Title>VENative.ChromaDB.Client</Title>
-		<Version>9.0.0</Version>
+		<Version>9.0.1</Version>
 		<Authors>VENative</Authors>
 		<Company>VENative</Company>
 		<LangVersion>12</LangVersion>
