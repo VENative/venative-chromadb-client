@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
+		<Version>9.1.0</Version>
 		<PackageId>VENative.ChromaDB.Client</PackageId>
 		<Title>VENative.ChromaDB.Client</Title>
 		<Authors>VENative</Authors>
@@ -17,14 +18,6 @@
 		<PackageTags>chromadb;document retrieval;vector database; vector embeddings;vector search</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>icon.png</PackageIcon>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
-		<Version>8.0.1</Version>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net9.0'">
-		<Version>9.0.3</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
